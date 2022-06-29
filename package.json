@@ -1,0 +1,19 @@
+{
+  "name": "glaum",
+  "version": "0.0.1",
+  "description": "More than love.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanteblais/glaum.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chanteblais/glaum/issues"
+  },
+  "homepage": "https://github.com/chanteblais/glaum#readme"
+}
