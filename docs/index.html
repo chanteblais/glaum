@@ -23,14 +23,15 @@
       class="w-full bg-body z-10 mx-auto l-0 r-0 fixed bg-blue-900 bg-opacity-10 backdrop-blur header"
     >
       <div
-        class="flex justify-between items-center mx-auto max-w-screen-lg px-4 sm:px-8 py-4 sm:py-6"
+        class="flex flex-col sm:flex-row justify-between items-center mx-auto max-w-screen-lg px-4 sm:px-8 py-4 sm:py-6"
       >
         <a
           class="font-averta-bold text-center text-lg sm:text-xl lg:text-2xl leading-tight logo-text opacity-70 hover:opacity-100 transition"
           href="/"
           >Glåüm</a
         >
-        <nav class="space-x-4">
+        <hr class="my-2 sm:hidden" />
+        <nav class="flex flex-col sm:flex-row sm:space-x-4">
           <a
             class="font-averta-bold text-center text-lg sm:text-xl lg:text-2xl mx-auto leading-tight opacity-70 hover:opacity-100 transition"
             href="#about"
@@ -58,7 +59,7 @@
     <div class="mx-auto px-4" style="max-width: 1200px">
       <div class="pt-2 pb-2 text-center h-screen">
         <h1
-          class="font-averta-bold text-center mt-32 pt-8 pb-2 xs:w-10/12 lg:w-auto text-2xl sm:text-6xl lg:text-8xl mx-auto main-headline leading-tight"
+          class="font-averta-bold text-center mt-48 sm:mt-32 pt-8 pb-2 xs:w-10/12 lg:w-auto text-2xl sm:text-6xl lg:text-8xl mx-auto main-headline leading-tight"
           style="font-family: bilo"
         >
           Glåüm
@@ -86,8 +87,9 @@
       </div>
     </div>
 
-    <div id="about" class="pt-32 pb-20 xs:pb-32 mx-auto bg-white bg-opacity-10">
-      <div class="max-w-3xl mx-auto">
+    <div id="about" class="pt-48 sm:pt-32 pb-20 xs:pb-32 mx-auto bg-white bg-opacity-10">
+      <div class="max-w-3xl mx-4 sm:mx-auto">
+        <h2 class="mb-4">About</h2>
         <h4 class="mb-4">Why should I camp with Glåüm?</h4>
 
         <p class="mb-4">
@@ -113,8 +115,9 @@
       </div>
     </div>
 
-    <div id="expectations" class="pt-32 pb-20 xs:pb-32 max-w-3xl mx-auto">
+    <div id="expectations" class="pt-48 sm:pt-32 pb-20 xs:pb-32 max-w-3xl mx-4 sm:mx-auto">
       <div class="mb-12">
+        <h2 class="mb-4">Expectations</h2>
         <h4 class="mb-4">So what does it mean to camp with Glåüm?</h4>
 
         <p class="mb-4">When you join the Camp of Glåüm, it is expected that you will:</p>
@@ -139,8 +142,8 @@
       </div>
     </div>
 
-    <div id="roles" class="pt-32 pb-20 xs:pb-32 mx-auto bg-white bg-opacity-10">
-      <div class="max-w-3xl mx-auto">
+    <div id="roles" class="pt-48 sm:pt-32 pb-20 xs:pb-32 mx-auto bg-white bg-opacity-10">
+      <div class="max-w-3xl mx-4 sm:mx-auto">
         <h2 class="mb-4">Roles</h2>
 
         <h5 class="mb-4">Curator/Greeter Shifts</h5>
@@ -234,9 +237,9 @@
       </div>
     </div>
 
-    <div class="mx-auto bg-white bg-opacity-10">
-      <div class="pt-20 pb-20 xs:pb-32 max-w-3xl mx-auto">
-        <h3>Interactivity</h3>
+    <div id="interactivity" class="pt-48 sm:pt-32 pb-20 xs:pb-32 max-w-3xl mx-4 sm:mx-auto">
+      <div class="mb-12">
+        <h2 class="mb-4">Interactivity</h2>
         <p>
           We in the Glåüm community value connection and creative expression. Our goal at Burning
           Man is to provide a space where people can take ease in a relaxing environment that
@@ -286,8 +289,10 @@
                 </ul>             -->
     </div>
 
-    <footer class="pt-32 pb-20 xs:pb-32 max-w-3xl mx-auto">
-      <p class="my-12">Copyright 2022 - Glåüm.ca</p>
-    </footer>
+    <div class="py-16 bg-black bg-opacity-20 mx-auto w-full">
+      <footer class="px-4 flex justify-between items-center mx-auto max-w-3xl mx-auto">
+        <p class="my-12">Copyright 2022 - Glåüm.ca</p>
+      </footer>
+    </div>
   </body>
 </html>
