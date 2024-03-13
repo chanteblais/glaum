@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Tokyo Dreams";
+  src: url('fonts/TokyoDreams/TokyoDreams.otf') format('otf');
+}
+
 * {
   --color-purple1: #8038f4;
   --color-purple2: #ac63f4;
@@ -10,7 +15,7 @@ body {
 }
 
 .header {
-  font-family: bilo, sans-serif;
+  font-family: "Tokyo Dreams";
   font-weight: 400;
   font-style: normal;
 }
