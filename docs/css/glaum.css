@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Tokyo Dreams";
-  src: url('docs/fonts/TokyoDreams/TokyoDreams.otf') format('otf');
+  src: url('docs/css/fonts/TokyoDreams/TokyoDreams.otf') format('otf');
 }
 
 * {
