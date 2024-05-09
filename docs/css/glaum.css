@@ -15,10 +15,11 @@
 }
 
 body {
-  /* background: #222; */
+  background: #ac63f4;
   /* background-image: url('https://glaum.ca/img/homepage.png'); */
-  background-image: url('https://glaum.ca/img/homepage_background.png');
+  background-image: url('https://glaum.ca/img/homepage.png');
   background-size: cover; 
+  background-repeat: no-repeat; 
 }
 
 /* background-image: url('https://glaum.ca/css/img/homepage.png');
@@ -77,8 +78,8 @@ h6 {
 /* @keyframes seamless-gradient-animation {
   0% {
     background-position: calc(var(--d) / var(--sin)) 0;
-  }
-} */
+  }*/
+} 
 
 body,
 html,
