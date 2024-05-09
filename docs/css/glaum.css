@@ -15,8 +15,17 @@
 }
 
 body {
-  background: #222;
+  background: #ac63f4;
+  /* background-image: url('https://glaum.ca/img/homepage.png'); */
+  background-image: url('https://glaum.ca/img/homepage.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
 }
+
+/* background-image: url('https://glaum.ca/css/img/homepage.png');
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center;  */
 
 .header {
   font-family: "tokyo_dreamsregular";
@@ -51,7 +60,7 @@ h6 {
   position: fixed;
   z-index: -1;
 
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     var(--angle),
     var(--color-purple1),
     var(--color-purple2),
@@ -64,13 +73,13 @@ h6 {
 
   background-size: calc(var(--d) / var(--sin)) 100%;
   animation: seamless-gradient-animation 60s ease-in-out infinite reverse;
-}
+} */
 
-@keyframes seamless-gradient-animation {
+/* @keyframes seamless-gradient-animation {
   0% {
     background-position: calc(var(--d) / var(--sin)) 0;
-  }
-}
+  }*/
+} 
 
 body,
 html,
@@ -390,12 +399,12 @@ a {
   padding-top: 0.625rem;
 }
 
-.gradient-background-anim {
+/* .gradient-background-anim {
   background: #1d1f20;
   position: relative;
-}
+} */
 
-.gradient-background-anim:after {
+/* .gradient-background-anim:after {
   @apply rounded-lg;
   content: '';
   position: absolute;
@@ -408,9 +417,9 @@ a {
   animation: animatedgradient 3s ease alternate infinite;
   animation-timing-function: steps(30);
   background-size: 300% 300%;
-}
+} */
 
-@keyframes animatedgradient {
+/* @keyframes animatedgradient {
   0% {
     background-position: 0% 50%;
   }
@@ -420,7 +429,7 @@ a {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 .square-btn--rainbow:not([disabled]):hover,
 .square-btn--rainbow:not([disabled]):focus {
